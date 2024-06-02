@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Community = () => {
   return (
-    <div>Community</div>
-  )
-}
+    <main>
+      <h1>Community</h1>
+    </main>
+  );
+};
 
 export default Community;
