@@ -1,9 +1,12 @@
-import React from 'react'
+import Link from "next/link";
+
 
 const Share = () => {
   return (
-    <div>Share</div>
-  )
-}
+    <main>
+      <p>Meals</p>
+    </main>
+  );
+};
 
 export default Share;
