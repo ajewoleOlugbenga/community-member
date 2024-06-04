@@ -4,6 +4,7 @@ import Link from "next/link";
 import logoImg from "../../assets/logo.png";
 import classes from "./main-header.module.css";
 import MainHeaderBackground from "./main-header-background";
+import NavLink from "./nav-link";
 
 const MainHeader = () => {
   return (
@@ -14,7 +15,7 @@ const MainHeader = () => {
           <Image src={logoImg} alt="A plate with food on it" priority />
           NextFood
         </Link>
-        
+        <NavLink/>
       </header>
     </>
   );
