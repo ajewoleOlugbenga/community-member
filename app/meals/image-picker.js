@@ -13,7 +13,7 @@ export default function ImagePicker({ label, name }) {
       <label htmlFor={name}>{label}</label>
       <div className={classes.controls}>
         <input
-          className={classes.picker}
+          className={classes.input}
           type="file"
           id={name}
           accept="image/png, image/jpeg"
